@@ -11,4 +11,4 @@ console.log(compareDifferentValues('8',8));
 console.log(compareDifferentValues("8","8"));
 console.log(compareDifferentValues(8,8));
 // Only change code above this line
-module.export = compareDifferentValues;
+module.exports = compareDifferentValues;
