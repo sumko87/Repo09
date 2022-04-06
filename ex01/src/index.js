@@ -3,6 +3,6 @@ function myTrueBoolean() {
 return true;
 }
 console.log(myTrueBoolean());
-// Only changec code above this line
+// Only change code above this line
 module.exports = myTrueBoolean;
 

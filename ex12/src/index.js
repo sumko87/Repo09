@@ -1,4 +1,4 @@
-// Only chabge code below this line
+// Only change code below this line
 function logicOrder(num) {
     if(num<50) {
         return "Less than 50";

@@ -3,7 +3,7 @@ function myFunction(myParameter) {
     if(myParameter) {
         return "The parameter is true!";
     }
-    else "The parameter is false!";
+    else return "The parameter is false!";
 }
 console.log(myFunction(true));
 console.log(myFunction(false));
