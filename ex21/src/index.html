@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gigi School of Coding</title>
+    </head>
+    <body>
+        <h2>CatPhotoApp</h2>
+        <main>
+            <!--
+            <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+            -->
+            <a href="#">
+                <img src="https://bit.ly/3fUJAV1" alt="Grey cat on the tree.">
+            </a>
+            <p>Things cats love:</p>
+            <ul>
+                <li>milk</li>
+                <li>sleeping</li>
+                <li>fish</li>
+            </ul> 
+            <p>Top three things cat hate:</p> 
+            <ol>
+                <li>watter</li>
+                <li>noise</li>
+                <li>dogs</li>
+            </ol>
+            <form action="/submit-cat-photo">
+                <input type="text" placeholder="cat photo URL" required> <!--This field is mandatory-->
+                <button type="submit">Submit</button>
+                <div>
+                    <label for="inside">
+                        <input id="inside" type="radio" name="inside-outside" value="inside" checked>inside
+                    </label>
+                    <label for="outside">
+                        <input id="outside" type="radio" name="inside-outside" value="outside">outside
+                    </label>
+                </div>
+                <div>
+                    <label for="Dog">
+                        <input type="checkbox" name="favorite_pet" value="Dog" checked>Dog
+                    </label>
+                    <label for="Cat">
+                        <input type="checkbox" name="favorite_pet" value="Cat">Cat
+                    </label>
+                    <label for="Hamster">
+                        <input type="checkbox" name="favorite_pet" value="Hamster">Hamster
+                    </label>
+                    <label for="Bird">
+                        <input type="checkbox" name="favorite_pet" value="Bird">Bird
+                    </label>
+                    <label for="Fish">
+                        <input type="checkbox" name="favorite_pet" value="Fish">Fish
+                    </label>
+                </div>
+            </form>   
+        </main>
+        <footer id="footer"></footer>
+    </body>
+</html>
